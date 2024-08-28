@@ -1,0 +1,24 @@
+{
+  "name": "omnetpp-ned",
+  "displayName": "omnetpp-ned",
+  "description": "TextMate grammar for the OMNeT++ NED language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "omnetpp-ned",
+      "extensions": [".ned"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "omnetpp-ned",
+      "scopeName": "source.ned",
+      "path": "./syntaxes/ned.tmLanguage.json"
+    }]
+  }
+}
